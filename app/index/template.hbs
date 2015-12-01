@@ -1,1 +1,10 @@
-<h2 class="{{ model.firstName }}">Hey there {{model.lastName}}, {{ model.firstName }}</h2>
+<h2 class="{{ model.firstName }}">
+  {{log model}}
+  Hey there {{model.lastName}}, {{ model.firstName }}
+</h2>
+
+<ul class="students">
+  {{#each model as |student|}}
+    {{student-item student=student}}
+  {{/each}}
+</ul>

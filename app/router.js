@@ -6,6 +6,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('github-profile');
 });
 
 export default Router;

@@ -6,10 +6,12 @@ export default Ember.Route.extend({
       {
         firstName: 'Brandi',
         lastName: 'Soucy',
+        username: 'pixiestix826',
       },
       {
         firstName: 'Chancey',
         lastName: 'Ward',
+        username: 'chanceyw',
       },
     ];
   },

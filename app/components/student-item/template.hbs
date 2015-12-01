@@ -1,1 +1,3 @@
-{{attrs.student.lastName}}, {{attrs.student.firstName}}
+{{#link-to 'github-profile' attrs.student.username}}
+  {{attrs.student.lastName}}, {{attrs.student.firstName}}
+{{/link-to}}
